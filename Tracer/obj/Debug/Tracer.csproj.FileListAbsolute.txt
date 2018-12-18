@@ -1,0 +1,9 @@
+D:\5 сем\СПП - 5 лаб\ConsoleApp2\Tracer\bin\Debug\Tracer.dll
+D:\5 сем\СПП - 5 лаб\ConsoleApp2\Tracer\bin\Debug\Tracer.pdb
+D:\5 сем\СПП - 5 лаб\ConsoleApp2\Tracer\obj\Debug\Tracer.csprojAssemblyReference.cache
+D:\5 сем\СПП - 5 лаб\ConsoleApp2\Tracer\obj\Debug\Tracer.csproj.CoreCompileInputs.cache
+D:\5 сем\СПП - 5 лаб\ConsoleApp2\Tracer\obj\Debug\Tracer.dll
+D:\5 сем\СПП - 5 лаб\ConsoleApp2\Tracer\obj\Debug\Tracer.pdb
+D:\5 сем\СПП - 5 лаб\ConsoleApp2\Tracer\bin\Debug\Newtonsoft.Json.dll
+D:\5 сем\СПП - 5 лаб\ConsoleApp2\Tracer\bin\Debug\Newtonsoft.Json.xml
+D:\5 сем\СПП - 5 лаб\ConsoleApp2\Tracer\obj\Debug\Tracer.csproj.CopyComplete

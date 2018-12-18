@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ArrayOfTraceResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TraceResult>
+    <MethTime>0</MethTime>
+    <NextCall>
+      <Type>ConsoleApp2.JustTestSomeShit</Type>
+      <ClassMethod>Void InnerMethod()</ClassMethod>
+      <MethTime>673</MethTime>
+      <NextCall>
+        <Type>ConsoleApp2.Check</Type>
+        <ClassMethod>Void MyDudes()</ClassMethod>
+        <MethTime>321</MethTime>
+        <NextCall>
+          <Type>ConsoleApp2.SameLvl</Type>
+          <ClassMethod>Void InnerMethod()</ClassMethod>
+          <MethTime>271</MethTime>
+        </NextCall>
+      </NextCall>
+      <NextCall>
+        <Type>ConsoleApp2.SameLvl</Type>
+        <ClassMethod>Void InnerMethod()</ClassMethod>
+        <MethTime>250</MethTime>
+      </NextCall>
+    </NextCall>
+  </TraceResult>
+  <TraceResult>
+    <MethTime>0</MethTime>
+    <NextCall>
+      <Type>ConsoleApp2.SameLvl</Type>
+      <ClassMethod>Void InnerMethod()</ClassMethod>
+      <MethTime>250</MethTime>
+    </NextCall>
+  </TraceResult>
+</ArrayOfTraceResult>

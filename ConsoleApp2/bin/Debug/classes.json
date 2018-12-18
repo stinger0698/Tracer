@@ -1,0 +1,47 @@
+[
+  {
+    "Thread": "Thread #1",
+    "Type": "ConsoleApp2.InnerClass",
+    "ClassMethod": "Void InnerMethod()",
+    "MethTime": 653,
+    "NextCall": [
+      {
+        "Thread": "Thread #1",
+        "Type": "ConsoleApp2.ZetClass",
+        "ClassMethod": "Void ZetMeth()",
+        "MethTime": 302,
+        "NextCall": [
+          {
+            "Thread": "Thread #1",
+            "Type": "ConsoleApp2.AbsoluteClass",
+            "ClassMethod": "Void Absolute(Int32 ByRef)",
+            "MethTime": 251,
+            "NextCall": []
+          }
+        ]
+      },
+      {
+        "Thread": "Thread #1",
+        "Type": "ConsoleApp2.AbsoluteClass",
+        "ClassMethod": "Void Absolute(Int32 ByRef)",
+        "MethTime": 250,
+        "NextCall": []
+      }
+    ]
+  },
+  {
+    "Thread": "Thread #2",
+    "Type": "ConsoleApp2.ZetClass",
+    "ClassMethod": "Void ZetMeth()",
+    "MethTime": 301,
+    "NextCall": [
+      {
+        "Thread": "Thread #2",
+        "Type": "ConsoleApp2.AbsoluteClass",
+        "ClassMethod": "Void Absolute(Int32 ByRef)",
+        "MethTime": 250,
+        "NextCall": []
+      }
+    ]
+  }
+]

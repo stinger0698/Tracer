@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTraceResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TraceResult>
+    <Thread>Thread #1</Thread>
+    <Type>ConsoleApp2.InnerClass</Type>
+    <ClassMethod>Void InnerMethod()</ClassMethod>
+    <MethTime>908</MethTime>
+    <NextCall>
+      <Thread>Thread #1</Thread>
+      <Type>ConsoleApp2.ZetClass</Type>
+      <ClassMethod>Void ZetMeth()</ClassMethod>
+      <MethTime>556</MethTime>
+      <NextCall>
+        <Thread>Thread #1</Thread>
+        <Type>ConsoleApp2.AbsoluteClass</Type>
+        <ClassMethod>Void Absolute()</ClassMethod>
+        <MethTime>251</MethTime>
+      </NextCall>
+      <NextCall>
+        <Thread>Thread_form_ZetMethod</Thread>
+        <Type>ConsoleApp2.AbsoluteClass</Type>
+        <ClassMethod>Void Absolute()</ClassMethod>
+        <MethTime>250</MethTime>
+      </NextCall>
+    </NextCall>
+    <NextCall>
+      <Thread>Thread #1</Thread>
+      <Type>ConsoleApp2.AbsoluteClass</Type>
+      <ClassMethod>Void Absolute()</ClassMethod>
+      <MethTime>250</MethTime>
+    </NextCall>
+  </TraceResult>
+  <TraceResult>
+    <Thread>Thread #2</Thread>
+    <Type>ConsoleApp2.ZetClass</Type>
+    <ClassMethod>Void ZetMeth()</ClassMethod>
+    <MethTime>559</MethTime>
+    <NextCall>
+      <Thread>Thread #2</Thread>
+      <Type>ConsoleApp2.AbsoluteClass</Type>
+      <ClassMethod>Void Absolute()</ClassMethod>
+      <MethTime>251</MethTime>
+    </NextCall>
+    <NextCall>
+      <Thread>Thread_form_ZetMethod</Thread>
+      <Type>ConsoleApp2.AbsoluteClass</Type>
+      <ClassMethod>Void Absolute()</ClassMethod>
+      <MethTime>251</MethTime>
+    </NextCall>
+  </TraceResult>
+</ArrayOfTraceResult>
